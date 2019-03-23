@@ -4,4 +4,4 @@ Authors:
 * Shawn
 * Sabrina
 * Izzi
-* kaylor
+* Kaylor
