@@ -51,5 +51,14 @@ function getUserInput() {
     	console.log("please enter the amount of hours you slept");
     } else {
 		addData(sleepInput);
+		determineResult();
     }
+}
+diagnosisResult = document.getElementById("diagnosis-result");
+function determineResult() {
+	if (sleepInput > 8) {
+		diagnosisResult.innerHTML = "You got a good amount of sleep last night!";
+	} else {
+		diagnosisResult.innerHTML = "You need more sleep";
+	}
 }
