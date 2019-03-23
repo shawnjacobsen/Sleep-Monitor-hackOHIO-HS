@@ -3,3 +3,5 @@ Sleep monitor application
 Authors:
 * Shawn
 * Sabrina
+* Izzi
+* kaylor
