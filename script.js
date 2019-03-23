@@ -46,5 +46,13 @@ var sleepInput = 0;
 function getUserInput() {
     sleepInput = Number(document.getElementById("sleep-input").value);
     console.log("sleepInput = " + sleepInput);
-    addData(sleepInput);
+    if (sleepInput == 0) {
+    	console.log("please enter the amount of hours you slept");
+    } else {
+    	if (isNaN(sleepInput)) {
+    		console.log("enter a number");
+    	} else {
+    		addData(sleepInput);
+    	}
+    }
 }
