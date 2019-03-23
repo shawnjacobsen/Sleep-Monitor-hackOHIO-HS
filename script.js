@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console.log("test");
 console.log("Like");
 
@@ -20,8 +19,3 @@ var myChart = new Chart(ctx, {
     ]
   }
 });
-=======
-//testing script for javascript
-console.log("test");
-console.log("Like");
->>>>>>> 1ab7e187d39952c891c3d87852ec831eec6278dd
