@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 console.log("test");
+console.log("Like");
 
 // x-axis
 var days = [1,2,3,4,5,6,7];
@@ -18,3 +20,8 @@ var myChart = new Chart(ctx, {
     ]
   }
 });
+=======
+//testing script for javascript
+console.log("test");
+console.log("Like");
+>>>>>>> 1ab7e187d39952c891c3d87852ec831eec6278dd
