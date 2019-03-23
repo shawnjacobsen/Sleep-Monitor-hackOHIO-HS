@@ -2,11 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Sleep Monitor Application</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-	<h1>TEST HEADER</h1>
+	<h2>How many hours did you sleep last night?</h2>
+	<input id="sleep-input" type="text" placeholder="Hours Slept"><span> Hours</span>
+	<input onclick="getUserInput()" type="submit" value="Submit">
+	<h1>Sleep Monitor</h1>
+	<div id="chart-container">
+		<canvas id="myChart" width="500" height="250"></canvas>
+	</div>
 	<canvas id="myChart" width="300" height="200"></canvas>
 
 	<script src="script.js"></script>
