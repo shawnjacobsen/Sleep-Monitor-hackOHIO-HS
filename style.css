@@ -2,12 +2,16 @@
 	border-radius: 1px;
 	border: 1px solid black;
 	position: absolute;
-	top: 20px;
+	top: 50px;
 	left: 480px;
 }
 
 #cognitive-test {
-	margin: 0px;
-	padding: 50px 200px;
 	background: rgba(25,25,25,0.05);
+}
+
+#cognitive-test-header {
+	position: absolute;
+	top: 0px;
+	left: 480px;
 }
